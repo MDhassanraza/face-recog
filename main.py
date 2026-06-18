@@ -91,6 +91,7 @@ def detect_uniform_color(frame):
 
 # ===================== ATTENDANCE =====================
 def mark_attendance(Id, Name, uniform):
+    
     today = datetime.now().strftime("%Y-%m-%d")
     now = datetime.now().strftime("%H:%M:%S")
 
@@ -300,4 +301,4 @@ btn("CLEAR", BTN_CLEAR, clear, 340)
 btn("VIEW", "#0EA5E9", view_attendance, 440)
 
 
-window.mainloop()
+window.mainloop()   
